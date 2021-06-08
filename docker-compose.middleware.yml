@@ -21,7 +21,7 @@ services:
       - "5222:5222"
       - "9090:9090"
     extra_hosts:
-      - "vtn.oadr.com:192.168.65.2"
+      - "vtn.dev-members.evokesystems.com:192.168.65.2"
 
   rabbitmq:
     build: .docker/rabbitmq

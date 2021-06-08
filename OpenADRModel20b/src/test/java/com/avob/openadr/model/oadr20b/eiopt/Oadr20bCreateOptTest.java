@@ -20,7 +20,7 @@ import com.avob.openadr.model.oadr20b.ei.OptReasonEnumeratedType;
 import com.avob.openadr.model.oadr20b.ei.OptTypeType;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bMarshalException;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bUnmarshalException;
-import com.avob.openadr.model.oadr20b.oadr.OadrCreateOptType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCreateOptType;
 import com.avob.openadr.model.oadr20b.xcal.VavailabilityType;
 
 public class Oadr20bCreateOptTest {

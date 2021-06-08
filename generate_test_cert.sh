@@ -6,8 +6,8 @@
 # - client ven1 rsa
 # - client ven2 ecc
 # use openssl_client / curl to test ssl handshake between components:
-# openssl s_client -key ven1.oadr.com.key -cert ven1.oadr.com.crt -CAfile oadr.com.crt -connect vtn.oadr.com:8181
-# curl --key admin.oadr.com.key --cert admin.oadr.com.crt --cacert oadr.com.crt -H "Content-Type: application/json" -X GET https://localhost:8181/testvtn/Ven/ 
+# openssl s_client -key ven1.dev-members.evokesystems.com.key -cert ven1.dev-members.evokesystems.com.crt -CAfile oadr.com.crt -connect vtn.dev-members.evokesystems.com:8181
+# curl --key admin.dev-members.evokesystems.com.key --cert admin.dev-members.evokesystems.com.crt --cacert oadr.com.crt -H "Content-Type: application/json" -X GET https://localhost:8181/testvtn/Ven/ 
 ###################################################
 COUNTRY="FR"
 STATE="Paris"
@@ -15,15 +15,15 @@ LOCALITY="Paris"
 ORGANIZATION="Avob"	
 
 CA_NAME="oadr.com"
-ADMIN_NAME="admin.oadr.com"
-VTN_NAME="vtn.oadr.com"
-VTN_XMPP_NAME="xmpp.vtn.oadr.com"
-VEN1_NAME="ven1.oadr.com"
-VEN2_NAME="ven2.oadr.com"
-VEN3_NAME="ven3.oadr.com"
-VEN4_NAME="ven4.oadr.com"
-USER_NAME="user.oadr.com"
-APP_NAME="app.oadr.com"
+ADMIN_NAME="admin.dev-members.evokesystems.com"
+VTN_NAME="vtn.dev-members.evokesystems.com"
+VTN_XMPP_NAME="xmpp.vtn.dev-members.evokesystems.com"
+VEN1_NAME="ven1.dev-members.evokesystems.com"
+VEN2_NAME="ven2.dev-members.evokesystems.com"
+VEN3_NAME="ven3.dev-members.evokesystems.com"
+VEN4_NAME="ven4.dev-members.evokesystems.com"
+USER_NAME="user.dev-members.evokesystems.com"
+APP_NAME="app.dev-members.evokesystems.com"
 
 ###################################
 # HELPERS

@@ -19,11 +19,11 @@ oadr.security.replayProtectAcceptedDelaySecond 1200
 oadr.security.digest.realm oadr.avob.com
 
 
-oadr.security.vtn.key /opt/oadr-vtn20b/cert/vtn.oadr.com-rsa.key
-oadr.security.vtn.cert /opt/oadr-vtn20b/cert/vtn.oadr.com-rsa.crt
+oadr.security.vtn.key /opt/oadr-vtn20b/cert/vtn.dev-members.evokesystems.com-rsa.key
+oadr.security.vtn.cert /opt/oadr-vtn20b/cert/vtn.dev-members.evokesystems.com-rsa.crt
 
-oadr.security.vtn.xmpp.key /opt/oadr-vtn20b/cert/xmpp.vtn.oadr.com-rsa.key
-oadr.security.vtn.xmpp.cert /opt/oadr-vtn20b/cert/xmpp.vtn.oadr.com-rsa.crt
+oadr.security.vtn.xmpp.key /opt/oadr-vtn20b/cert/xmpp.vtn.dev-members.evokesystems.com-rsa.key
+oadr.security.vtn.xmpp.cert /opt/oadr-vtn20b/cert/xmpp.vtn.dev-members.evokesystems.com-rsa.crt
 
 oadr.security.ca.key /opt/oadr-vtn20b/cert/oadr.com.key
 oadr.security.ca.cert /opt/oadr-vtn20b/cert/oadr.com.crt
@@ -41,11 +41,11 @@ spring.datasource.password supersecure
 spring.jpa.hibernate.ddl-auto create-drop
 
 vtn.swagger true
-vtn.cors https://vtn.oadr.com:8181,https://localhost:8181
+vtn.cors https://vtn.dev-members.evokesystems.com:8181,https://localhost:8181
 vtn.custom-cert-folder /opt/oadr-vtn20b/cert
 
-oadr.xmpp.host xmpp.vtn.oadr.com
-oadr.xmpp.domain xmpp.vtn.oadr.com
+oadr.xmpp.host xmpp.vtn.dev-members.evokesystems.com
+oadr.xmpp.domain xmpp.vtn.dev-members.evokesystems.com
 oadr.xmpp.port 5222
 ```
 ## Maven profiles

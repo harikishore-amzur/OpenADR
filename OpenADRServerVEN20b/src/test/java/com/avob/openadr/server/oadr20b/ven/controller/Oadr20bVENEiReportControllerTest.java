@@ -28,7 +28,7 @@ import org.springframework.web.context.WebApplicationContext;
 import com.avob.openadr.model.oadr20b.Oadr20bJAXBContext;
 import com.avob.openadr.model.oadr20b.Oadr20bUrlPath;
 import com.avob.openadr.model.oadr20b.errorcodes.Oadr20bApplicationLayerErrorCode;
-import com.avob.openadr.model.oadr20b.oadr.OadrResponseType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrResponseType;
 import com.avob.openadr.server.oadr20b.ven.VEN20bApplicationTest;
 
 @RunWith(SpringJUnit4ClassRunner.class)

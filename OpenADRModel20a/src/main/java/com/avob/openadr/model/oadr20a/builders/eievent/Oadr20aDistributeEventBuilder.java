@@ -5,8 +5,8 @@ import java.util.List;
 
 import com.avob.openadr.model.oadr20a.Oadr20aFactory;
 import com.avob.openadr.model.oadr20a.ei.EiResponse;
-import com.avob.openadr.model.oadr20a.oadr.OadrDistributeEvent;
-import com.avob.openadr.model.oadr20a.oadr.OadrDistributeEvent.OadrEvent;
+import com.avob.openadr.model.oadr20a.dev-members.evokesystems.OadrDistributeEvent;
+import com.avob.openadr.model.oadr20a.dev-members.evokesystems.OadrDistributeEvent.OadrEvent;
 
 public class Oadr20aDistributeEventBuilder {
 

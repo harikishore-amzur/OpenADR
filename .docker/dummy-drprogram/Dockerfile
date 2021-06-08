@@ -18,5 +18,5 @@ RUN mv /opt/dummy-drprogram/*.jar /opt/dummy-drprogram/dummy-drprogram.jar
 
 RUN chmod +x /opt/dummy-drprogram/wait-for-it.sh
 
-CMD ["/opt/dummy-drprogram/wait-for-it.sh", "vtn.oadr.com:8081", "-t", "120", "--" \
+CMD ["/opt/dummy-drprogram/wait-for-it.sh", "vtn.dev-members.evokesystems.com:8081", "-t", "120", "--" \
 	, "java", "-jar", "/opt/dummy-drprogram/dummy-drprogram.jar", "--spring.config.location=/opt/dummy-drprogram/application.properties"]

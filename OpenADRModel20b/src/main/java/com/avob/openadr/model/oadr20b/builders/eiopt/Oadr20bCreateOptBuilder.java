@@ -5,7 +5,7 @@ import com.avob.openadr.model.oadr20b.builders.Oadr20bEiBuilders;
 import com.avob.openadr.model.oadr20b.ei.EiTargetType;
 import com.avob.openadr.model.oadr20b.ei.OptReasonEnumeratedType;
 import com.avob.openadr.model.oadr20b.ei.OptTypeType;
-import com.avob.openadr.model.oadr20b.oadr.OadrCreateOptType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCreateOptType;
 import com.avob.openadr.model.oadr20b.xcal.VavailabilityType;
 
 public class Oadr20bCreateOptBuilder {

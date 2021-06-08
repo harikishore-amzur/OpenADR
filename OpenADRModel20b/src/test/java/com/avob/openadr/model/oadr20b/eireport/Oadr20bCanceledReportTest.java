@@ -17,7 +17,7 @@ import com.avob.openadr.model.oadr20b.TestUtils;
 import com.avob.openadr.model.oadr20b.builders.Oadr20bEiReportBuilders;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bMarshalException;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bUnmarshalException;
-import com.avob.openadr.model.oadr20b.oadr.OadrCanceledReportType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCanceledReportType;
 
 public class Oadr20bCanceledReportTest {
 

@@ -106,7 +106,7 @@ export class VenCreateIndentificationStep extends React.Component {
                        id="oadr_cn_textfield"
                        fullWidth={ true }
                        label="VEN Common Name"
-                       placeholder="myven.oadr.com"
+                       placeholder="myven.dev-members.evokesystems.com"
                        value={ identification.venCommonName }
                        className={ classes.textField }
                        error={ hasError }

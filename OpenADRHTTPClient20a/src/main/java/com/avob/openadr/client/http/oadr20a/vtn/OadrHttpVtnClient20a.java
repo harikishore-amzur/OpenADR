@@ -4,8 +4,8 @@ import com.avob.openadr.client.http.oadr20a.OadrHttpClient20a;
 import com.avob.openadr.model.oadr20a.Oadr20aUrlPath;
 import com.avob.openadr.model.oadr20a.exception.Oadr20aException;
 import com.avob.openadr.model.oadr20a.exception.Oadr20aHttpLayerException;
-import com.avob.openadr.model.oadr20a.oadr.OadrDistributeEvent;
-import com.avob.openadr.model.oadr20a.oadr.OadrResponse;
+import com.avob.openadr.model.oadr20a.dev-members.evokesystems.OadrDistributeEvent;
+import com.avob.openadr.model.oadr20a.dev-members.evokesystems.OadrResponse;
 
 /**
  * Oadr 2.0a VTN simple http client

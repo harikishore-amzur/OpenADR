@@ -16,7 +16,7 @@ import com.avob.openadr.model.oadr20b.TestUtils;
 import com.avob.openadr.model.oadr20b.builders.Oadr20bPollBuilders;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bMarshalException;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bUnmarshalException;
-import com.avob.openadr.model.oadr20b.oadr.OadrPollType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrPollType;
 
 public class OadrPollTest {
 	private Oadr20bJAXBContext jaxbContext;

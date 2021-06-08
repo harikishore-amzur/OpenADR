@@ -75,7 +75,7 @@
 					<excludes>
 						<exclude>com.avob.openadr.model.*.ei.*</exclude>
 						<exclude>com.avob.openadr.model.*.emix.*</exclude>
-						<exclude>com.avob.openadr.model.*.oadr.*</exclude>
+						<exclude>com.avob.openadr.model.*.dev-members.evokesystems.*</exclude>
 						<exclude>com.avob.openadr.model.*.pyld.*</exclude>
 						<exclude>com.avob.openadr.model.*.strm.*</exclude>
 						<exclude>com.avob.openadr.model.*.xcal.*</exclude>

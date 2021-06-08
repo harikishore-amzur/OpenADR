@@ -3,7 +3,7 @@ package com.avob.openadr.model.oadr20b.builders.response;
 import com.avob.openadr.model.oadr20b.Oadr20bFactory;
 import com.avob.openadr.model.oadr20b.ei.EiResponseType;
 import com.avob.openadr.model.oadr20b.ei.SchemaVersionEnumeratedType;
-import com.avob.openadr.model.oadr20b.oadr.OadrResponseType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrResponseType;
 
 public class Oadr20bResponseBuilder {
 

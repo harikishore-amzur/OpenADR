@@ -25,7 +25,7 @@ services:
       http:
       xmpp:
         aliases:
-          - xmpp.vtn.oadr.com
+          - xmpp.vtn.dev-members.evokesystems.com
 
   rabbitmq:
     build: .docker/rabbitmq
@@ -53,7 +53,7 @@ services:
       xmpp:
       http:
         aliases:
-          - vtn.oadr.com
+          - vtn.dev-members.evokesystems.com
 
   dummy-drprogram:
     build: .docker/dummy-drprogram
@@ -80,10 +80,10 @@ services:
       xmpp:
       http:
         aliases:
-          - ven1.oadr.com
-          - ven2.oadr.com
-          - ven3.oadr.com
-          - ven4.oadr.com
+          - ven1.dev-members.evokesystems.com
+          - ven2.dev-members.evokesystems.com
+          - ven3.dev-members.evokesystems.com
+          - ven4.dev-members.evokesystems.com
   
   # nodered:
   #   build: .docker/nodered
@@ -91,7 +91,7 @@ services:
   #     - "build"
   #     - "vtn20b"
   #   links:
-  #     - "vtn20b:vtn.oadr.com"
+  #     - "vtn20b:vtn.dev-members.evokesystems.com"
   #   ports:
   #     - "1880:1880"
   #     - "8843:8843"

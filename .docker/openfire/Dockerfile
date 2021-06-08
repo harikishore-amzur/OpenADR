@@ -1,7 +1,7 @@
 FROM gizmotronic/openfire:4.4.4
 
 COPY --from=openadr_build:latest /opt/oadr/cert/oadr.com.crt /opt/oadr-vtn20b/cert/oadr.com.crt
-COPY --from=openadr_build:latest /opt/oadr/cert/xmpp.vtn.oadr.com-rsa.p12 /opt/oadr-vtn20b/cert/xmpp.vtn.oadr.com-rsa.p12
+COPY --from=openadr_build:latest /opt/oadr/cert/xmpp.vtn.dev-members.evokesystems.com-rsa.p12 /opt/oadr-vtn20b/cert/xmpp.vtn.dev-members.evokesystems.com-rsa.p12
 
 COPY available-plugins.xml /etc/openfire/available-plugins.xml
 COPY openfire.xml /etc/openfire/openfire.xml
@@ -19,7 +19,7 @@ RUN keytool -importkeystore -srckeystore "$OPENFIRE_SECURITY/keystore" -srcstore
 			-destkeystore "$OPENFIRE_SECURITY/keystore" -deststorepass changeme ;
 
 # Import VTN identity
-RUN keytool -v -importkeystore -srcstorepass "changeme" -srckeystore /opt/oadr-vtn20b/cert/xmpp.vtn.oadr.com-rsa.p12 -srcstoretype PKCS12 \
+RUN keytool -v -importkeystore -srcstorepass "changeme" -srckeystore /opt/oadr-vtn20b/cert/xmpp.vtn.dev-members.evokesystems.com-rsa.p12 -srcstoretype PKCS12 \
 			-deststorepass changeme -destkeystore "$OPENFIRE_SECURITY/keystore" -deststoretype JKS;
 
 # Change Truststore pass

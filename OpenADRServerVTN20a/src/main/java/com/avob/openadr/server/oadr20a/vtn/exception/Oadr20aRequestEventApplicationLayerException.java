@@ -1,7 +1,7 @@
 package com.avob.openadr.server.oadr20a.vtn.exception;
 
 import com.avob.openadr.model.oadr20a.exception.Oadr20aException;
-import com.avob.openadr.model.oadr20a.oadr.OadrDistributeEvent;
+import com.avob.openadr.model.oadr20a.dev-members.evokesystems.OadrDistributeEvent;
 
 public class Oadr20aRequestEventApplicationLayerException extends Oadr20aException implements Oadr20aGenericException {
 

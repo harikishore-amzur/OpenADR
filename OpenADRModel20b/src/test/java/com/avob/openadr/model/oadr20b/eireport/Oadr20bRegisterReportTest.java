@@ -28,10 +28,10 @@ import com.avob.openadr.model.oadr20b.emix.ItemBaseType;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bMarshalException;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bUnmarshalException;
 import com.avob.openadr.model.oadr20b.iso.ISO3AlphaCurrencyCodeContentType;
-import com.avob.openadr.model.oadr20b.oadr.CurrencyItemDescriptionType;
-import com.avob.openadr.model.oadr20b.oadr.OadrRegisterReportType;
-import com.avob.openadr.model.oadr20b.oadr.OadrReportType;
-import com.avob.openadr.model.oadr20b.oadr.TemperatureUnitType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.CurrencyItemDescriptionType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrRegisterReportType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrReportType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.TemperatureUnitType;
 import com.avob.openadr.model.oadr20b.power.PowerRealType;
 import com.avob.openadr.model.oadr20b.siscale.SiScaleCodeType;
 

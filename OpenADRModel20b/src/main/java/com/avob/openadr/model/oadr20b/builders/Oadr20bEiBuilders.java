@@ -4,7 +4,7 @@ import com.avob.openadr.model.oadr20b.avob.PayloadKeyTokenType;
 import com.avob.openadr.model.oadr20b.builders.eipayload.Oadr20bEiTargetTypeBuilder;
 import com.avob.openadr.model.oadr20b.builders.eipayload.Oadr20bReportIntervalTypeBuilder;
 import com.avob.openadr.model.oadr20b.builders.eipayload.Oadr20bSignalIntervalTypeBuilder;
-import com.avob.openadr.model.oadr20b.oadr.OadrPayloadResourceStatusType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrPayloadResourceStatusType;
 
 public class Oadr20bEiBuilders {
 

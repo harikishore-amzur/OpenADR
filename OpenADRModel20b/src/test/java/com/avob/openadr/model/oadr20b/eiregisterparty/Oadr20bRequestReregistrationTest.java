@@ -17,7 +17,7 @@ import com.avob.openadr.model.oadr20b.TestUtils;
 import com.avob.openadr.model.oadr20b.builders.Oadr20bEiRegisterPartyBuilders;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bMarshalException;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bUnmarshalException;
-import com.avob.openadr.model.oadr20b.oadr.OadrRequestReregistrationType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrRequestReregistrationType;
 
 public class Oadr20bRequestReregistrationTest {
 	private Oadr20bJAXBContext jaxbContext;

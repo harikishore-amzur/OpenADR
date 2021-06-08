@@ -1,7 +1,7 @@
 FROM rabbitmq:3.8.9-alpine
 
-COPY --from=openadr_build:latest /opt/oadr/cert/vtn.oadr.com-rsa.crt /opt/oadr-vtn20b/cert/vtn.oadr.com-rsa.crt
-COPY --from=openadr_build:latest /opt/oadr/cert/vtn.oadr.com-rsa.key /opt/oadr-vtn20b/cert/vtn.oadr.com-rsa.key
+COPY --from=openadr_build:latest /opt/oadr/cert/vtn.dev-members.evokesystems.com-rsa.crt /opt/oadr-vtn20b/cert/vtn.dev-members.evokesystems.com-rsa.crt
+COPY --from=openadr_build:latest /opt/oadr/cert/vtn.dev-members.evokesystems.com-rsa.key /opt/oadr-vtn20b/cert/vtn.dev-members.evokesystems.com-rsa.key
 
 ENV RABBITMQ_DEFAULT_USER=admin
 ENV RABBITMQ_DEFAULT_PASS=admin

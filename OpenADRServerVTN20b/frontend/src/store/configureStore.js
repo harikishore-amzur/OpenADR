@@ -14,7 +14,7 @@ const publicPath = process.env.REACT_APP_BASENAME || null;
 export const history = createBrowserHistory({ basename: publicPath });
 const connectRouterHistory = connectRouter( history );
 
-var swaggerUrl = process.env.REACT_APP_SWAGGER_URL || 'https://vtn.oadr.com:8181/testvtn/v2/api-docs';
+var swaggerUrl = process.env.REACT_APP_SWAGGER_URL || 'https://vtn.dev-members.evokesystems.com:8181/testvtn/v2/api-docs';
 export var config = {
 //		vtnSwaggerUrl: 'https://192.168.1.11:8181/testvtn/v2/api-docs',
 //  vtnSwaggerUrl: 'https://192.168.10.42:8181/testvtn/v2/api-docs',

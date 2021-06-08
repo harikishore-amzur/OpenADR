@@ -19,14 +19,14 @@ import com.avob.openadr.model.oadr20b.builders.Oadr20bEiRegisterPartyBuilders;
 import com.avob.openadr.model.oadr20b.builders.Oadr20bResponseBuilders;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bMarshalException;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bUnmarshalException;
-import com.avob.openadr.model.oadr20b.oadr.OadrCreatedPartyRegistrationType;
-import com.avob.openadr.model.oadr20b.oadr.OadrCreatedPartyRegistrationType.OadrExtensions;
-import com.avob.openadr.model.oadr20b.oadr.OadrCreatedPartyRegistrationType.OadrExtensions.OadrExtension;
-import com.avob.openadr.model.oadr20b.oadr.OadrInfo;
-import com.avob.openadr.model.oadr20b.oadr.OadrServiceNameType;
-import com.avob.openadr.model.oadr20b.oadr.OadrServiceSpecificInfo;
-import com.avob.openadr.model.oadr20b.oadr.OadrServiceSpecificInfo.OadrService;
-import com.avob.openadr.model.oadr20b.oadr.OadrTransportType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCreatedPartyRegistrationType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCreatedPartyRegistrationType.OadrExtensions;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCreatedPartyRegistrationType.OadrExtensions.OadrExtension;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrInfo;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrServiceNameType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrServiceSpecificInfo;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrServiceSpecificInfo.OadrService;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrTransportType;
 
 public class Oadr20bCreatedPartyRegistrationTest {
 

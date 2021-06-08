@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import com.avob.openadr.model.oadr20b.Oadr20bFactory;
-import com.avob.openadr.model.oadr20b.oadr.OadrCanceledReportType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCanceledReportType;
 
 public class Oadr20bCanceledReportBuilder {
 

@@ -20,7 +20,7 @@ public class DigestAuthenticationProvider implements AuthenticationProvider {
 	@Resource
 	private OadrSecurityRoleService oadrSecurityRoleService;
 
-	@Value("${oadr.security.digest.realm:digest.oadr.com}")
+	@Value("${oadr.security.digest.realm:digest.dev-members.evokesystems.com}")
 	private String realm;
 
 	@Override

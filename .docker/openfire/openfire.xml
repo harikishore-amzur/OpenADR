@@ -41,8 +41,8 @@ xmpp.multiplex.keypass  changeme
 xmpp.multiplex.keystore /usr/share/openfire/resources/security/keystore
 xmpp.multiplex.trustpass  changeme
 xmpp.multiplex.truststore /usr/share/openfire/resources/security/truststore
-xmpp.oadr.vtnAuthEndpoint https://vtn.oadr.com:8181/testvtn/Role
-xmpp.oadr.vtnId 1f24e2cfb468ce2b06ec
+xmpp.dev-members.evokesystems.vtnAuthEndpoint https://vtn.dev-members.evokesystems.com:8181/testvtn/Role
+xmpp.dev-members.evokesystems.vtnId 1f24e2cfb468ce2b06ec
 xmpp.session.conflict-limit 0
 xmpp.socket.ssl.client.certificate.accept-selfsigned  false
 xmpp.socket.ssl.client.certificate.verify.validity  true
@@ -101,5 +101,5 @@ xmpp.socket.ssl.truststore  /usr/share/openfire/resources/security/truststore
     </defaultProvider> 
   </database>  
   <setup>true</setup>  
-  <fqdn>xmpp.vtn.oadr.com</fqdn> 
+  <fqdn>xmpp.vtn.dev-members.evokesystems.com</fqdn> 
 </jive>

@@ -20,11 +20,11 @@ import com.avob.openadr.model.oadr20b.builders.Oadr20bEiReportBuilders;
 import com.avob.openadr.model.oadr20b.ei.ReportNameEnumeratedType;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bMarshalException;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bUnmarshalException;
-import com.avob.openadr.model.oadr20b.oadr.OadrLoadControlStateType;
-import com.avob.openadr.model.oadr20b.oadr.OadrLoadControlStateTypeType;
-import com.avob.openadr.model.oadr20b.oadr.OadrPayloadResourceStatusType;
-import com.avob.openadr.model.oadr20b.oadr.OadrReportType;
-import com.avob.openadr.model.oadr20b.oadr.OadrUpdateReportType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrLoadControlStateType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrLoadControlStateTypeType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrPayloadResourceStatusType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrReportType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrUpdateReportType;
 
 public class Oadr20bUpdateReportTest {
 	private Oadr20bJAXBContext jaxbContext;

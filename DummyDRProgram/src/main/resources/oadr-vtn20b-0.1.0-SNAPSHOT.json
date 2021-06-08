@@ -15,7 +15,7 @@
             "url": "API license URL"
         }
     },
-    "host": "vtn.oadr.com:8181",
+    "host": "vtn.dev-members.evokesystems.com:8181",
     "basePath": "/testvtn",
     "tags": [
         {

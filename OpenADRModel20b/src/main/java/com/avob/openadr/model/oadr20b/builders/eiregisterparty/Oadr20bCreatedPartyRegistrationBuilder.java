@@ -4,10 +4,10 @@ import java.util.List;
 
 import com.avob.openadr.model.oadr20b.Oadr20bFactory;
 import com.avob.openadr.model.oadr20b.ei.EiResponseType;
-import com.avob.openadr.model.oadr20b.oadr.OadrCreatedPartyRegistrationType;
-import com.avob.openadr.model.oadr20b.oadr.OadrCreatedPartyRegistrationType.OadrExtensions;
-import com.avob.openadr.model.oadr20b.oadr.OadrProfiles.OadrProfile;
-import com.avob.openadr.model.oadr20b.oadr.OadrServiceSpecificInfo;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCreatedPartyRegistrationType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCreatedPartyRegistrationType.OadrExtensions;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrProfiles.OadrProfile;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrServiceSpecificInfo;
 import com.avob.openadr.model.oadr20b.xcal.DurationPropType;
 
 public class Oadr20bCreatedPartyRegistrationBuilder {

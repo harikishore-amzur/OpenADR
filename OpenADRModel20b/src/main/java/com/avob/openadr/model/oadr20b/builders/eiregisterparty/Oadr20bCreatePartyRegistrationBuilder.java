@@ -1,8 +1,8 @@
 package com.avob.openadr.model.oadr20b.builders.eiregisterparty;
 
 import com.avob.openadr.model.oadr20b.Oadr20bFactory;
-import com.avob.openadr.model.oadr20b.oadr.OadrCreatePartyRegistrationType;
-import com.avob.openadr.model.oadr20b.oadr.OadrTransportType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCreatePartyRegistrationType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrTransportType;
 
 public class Oadr20bCreatePartyRegistrationBuilder {
 

@@ -48,7 +48,7 @@ export class AccountAppCreateIdentificationStep extends React.Component {
                        id="oadr_cn_textfield"
                        fullWidth={ true }
                        label="App Common Name"
-                       placeholder="myven.oadr.com"
+                       placeholder="myven.dev-members.evokesystems.com"
                        value={ identification.commonName }
                        className={ classes.textField }
                        error={ this.props.hasError }

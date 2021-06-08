@@ -27,12 +27,12 @@ Tests certificates are required to test project or run demo:
 
 This command will create several VTN / VEN / User / App certificates upon a self-signed generated authority. This authority has to be installed to disable insecure https warning when using VTN Control API / UI in a browser. VTN certificate uses the following Common Name, which need to be added to the local DNS configuration.
 
-- Install self-signed vtn certificate in your browser: cert/vtn.oadr.com-rsa.crt
-- Add "127.0.0.1 vtn.oadr.com" to your local "/etc/hosts"
+- Install self-signed vtn certificate in your browser: cert/vtn.dev-members.evokesystems.com-rsa.crt
+- Add "127.0.0.1 vtn.dev-members.evokesystems.com" to your local "/etc/hosts"
 
  An admin trusted client certificate is also generated and can be installed to to perform client authentication.
 
-- Install x509 admin certificate in your browser: cert/admin.oadr.com.crt (optional, authentication can be performed using login/pass: admin/admin)
+- Install x509 admin certificate in your browser: cert/admin.dev-members.evokesystems.com.crt (optional, authentication can be performed using login/pass: admin/admin)
 
 ## Oadr demo
 
@@ -55,8 +55,8 @@ The VTN controller is notified by VTN using AMQP when VTN receive payload from V
 
 ### Endpoints
 
-- VTN Control Swagger UI: https://vtn.oadr.com:8181/testvtn/swagger-ui.html
-- VTN Control UI: https://vtn.oadr.com:8181/testvtn/
+- VTN Control Swagger UI: https://vtn.dev-members.evokesystems.com:8181/testvtn/swagger-ui.html
+- VTN Control UI: https://vtn.dev-members.evokesystems.com:8181/testvtn/
 - VTN RabbitMQ Management UI: http://localhost:15672
 - VTN Openfire Management UI: http://localhost:9090
 

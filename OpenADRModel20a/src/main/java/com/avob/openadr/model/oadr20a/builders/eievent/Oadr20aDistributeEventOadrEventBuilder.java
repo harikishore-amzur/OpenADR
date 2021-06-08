@@ -7,8 +7,8 @@ import com.avob.openadr.model.oadr20a.ei.EiActivePeriodType;
 import com.avob.openadr.model.oadr20a.ei.EiEventSignalType;
 import com.avob.openadr.model.oadr20a.ei.EiTargetType;
 import com.avob.openadr.model.oadr20a.ei.EventDescriptorType;
-import com.avob.openadr.model.oadr20a.oadr.OadrDistributeEvent.OadrEvent;
-import com.avob.openadr.model.oadr20a.oadr.ResponseRequiredType;
+import com.avob.openadr.model.oadr20a.dev-members.evokesystems.OadrDistributeEvent.OadrEvent;
+import com.avob.openadr.model.oadr20a.dev-members.evokesystems.ResponseRequiredType;
 
 public class Oadr20aDistributeEventOadrEventBuilder {
 

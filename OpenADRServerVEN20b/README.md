@@ -22,6 +22,6 @@ oadr.security.replayProtectAcceptedDelaySecond 1200
 oadr.vtn.myvtn.vtnid=04:D0:20:52:32:23:6A:1F:73:E2
 oadr.vtn.myvtn.vtnUrl=https://localhost:8181
 oadr.vtn.myxmppvtn.vtnid=04:D0:20:52:32:23:6A:1F:73:E3
-oadr.vtn.myxmppvtn.xmpp.host=vtn.oadr.com
+oadr.vtn.myxmppvtn.xmpp.host=vtn.dev-members.evokesystems.com
 oadr.vtn.myxmppvtn.xmpp.port=5222
 ```

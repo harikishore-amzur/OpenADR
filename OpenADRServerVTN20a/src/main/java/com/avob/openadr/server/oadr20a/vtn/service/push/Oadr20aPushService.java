@@ -18,7 +18,7 @@ import com.avob.openadr.client.http.oadr20a.OadrHttpClient20a;
 import com.avob.openadr.client.http.oadr20a.vtn.OadrHttpVtnClient20a;
 import com.avob.openadr.model.oadr20a.exception.Oadr20aException;
 import com.avob.openadr.model.oadr20a.exception.Oadr20aHttpLayerException;
-import com.avob.openadr.model.oadr20a.oadr.OadrDistributeEvent;
+import com.avob.openadr.model.oadr20a.dev-members.evokesystems.OadrDistributeEvent;
 import com.avob.openadr.security.exception.OadrSecurityException;
 import com.avob.openadr.server.common.vtn.VtnConfig;
 import com.avob.openadr.server.common.vtn.models.demandresponseevent.DemandResponseEvent;

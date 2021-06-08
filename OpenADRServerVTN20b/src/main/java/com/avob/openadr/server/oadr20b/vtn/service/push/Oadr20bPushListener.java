@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 
 import com.avob.openadr.model.oadr20b.Oadr20bJAXBContext;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bUnmarshalException;
-import com.avob.openadr.model.oadr20b.oadr.OadrTransportType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrTransportType;
 import com.avob.openadr.server.common.vtn.models.ven.Ven;
 import com.avob.openadr.server.common.vtn.service.VenService;
 import com.avob.openadr.server.common.vtn.service.push.VenCommandDto;

@@ -65,7 +65,7 @@ import com.avob.openadr.model.oadr20b.exception.Oadr20bInitializationException;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bMarshalException;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bXMLSignatureException;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bXMLSignatureValidationException;
-import com.avob.openadr.model.oadr20b.oadr.OadrPayload;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrPayload;
 import com.avob.openadr.model.oadr20b.xmldsig.ObjectType;
 import com.avob.openadr.model.oadr20b.xmldsig.SignaturePropertiesType;
 import com.avob.openadr.model.oadr20b.xmldsig.SignaturePropertyType;

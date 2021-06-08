@@ -1,7 +1,7 @@
 package com.avob.openadr.model.oadr20b.builders.poll;
 
 import com.avob.openadr.model.oadr20b.Oadr20bFactory;
-import com.avob.openadr.model.oadr20b.oadr.OadrPollType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrPollType;
 
 public class Oadr20bPollBuilder {
 

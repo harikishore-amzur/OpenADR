@@ -3,8 +3,8 @@ package com.avob.openadr.model.oadr20b.builders.eireport;
 import java.util.List;
 
 import com.avob.openadr.model.oadr20b.Oadr20bFactory;
-import com.avob.openadr.model.oadr20b.oadr.OadrReportType;
-import com.avob.openadr.model.oadr20b.oadr.OadrUpdateReportType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrReportType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrUpdateReportType;
 
 public class Oadr20bUpdateReportBuilder {
     private OadrUpdateReportType oadrUpdateReportType;

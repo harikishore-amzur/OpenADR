@@ -26,10 +26,10 @@ import com.avob.openadr.model.oadr20b.builders.eipayload.Oadr20bEiTargetTypeBuil
 import com.avob.openadr.model.oadr20b.ei.OptReasonEnumeratedType;
 import com.avob.openadr.model.oadr20b.ei.OptTypeType;
 import com.avob.openadr.model.oadr20b.errorcodes.Oadr20bApplicationLayerErrorCode;
-import com.avob.openadr.model.oadr20b.oadr.OadrCancelOptType;
-import com.avob.openadr.model.oadr20b.oadr.OadrCanceledOptType;
-import com.avob.openadr.model.oadr20b.oadr.OadrCreateOptType;
-import com.avob.openadr.model.oadr20b.oadr.OadrCreatedOptType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCancelOptType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCanceledOptType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCreateOptType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCreatedOptType;
 import com.avob.openadr.model.oadr20b.xcal.VavailabilityType;
 import com.avob.openadr.server.common.vtn.models.TargetDto;
 import com.avob.openadr.server.common.vtn.models.TargetTypeEnum;

@@ -6,7 +6,7 @@ import java.util.List;
 import com.avob.openadr.model.oadr20b.Oadr20bFactory;
 import com.avob.openadr.model.oadr20b.ei.IntervalType;
 import com.avob.openadr.model.oadr20b.ei.ReportNameEnumeratedType;
-import com.avob.openadr.model.oadr20b.oadr.OadrReportType;
+import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrReportType;
 
 public class Oadr20bUpdateReportOadrReportBuilder {
 

@@ -19,5 +19,5 @@ RUN mv /opt/oadr-ven20b/*.jar /opt/oadr-ven20b/oadr-ven20b.jar
 
 RUN chmod +x /opt/oadr-ven20b/wait-for-it.sh
 
-CMD ["/opt/oadr-ven20b/wait-for-it.sh", "vtn.oadr.com:8081", "-t", "150", "--" \
+CMD ["/opt/oadr-ven20b/wait-for-it.sh", "vtn.dev-members.evokesystems.com:8081", "-t", "150", "--" \
 	, "java", "-jar", "/opt/oadr-ven20b/oadr-ven20b.jar", "--spring.config.location=/opt/oadr-ven20b/application.properties"]
