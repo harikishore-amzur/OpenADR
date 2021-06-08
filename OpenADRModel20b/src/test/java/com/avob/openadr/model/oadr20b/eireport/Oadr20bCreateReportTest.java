@@ -18,9 +18,9 @@ import com.avob.openadr.model.oadr20b.builders.Oadr20bEiReportBuilders;
 import com.avob.openadr.model.oadr20b.ei.ReadingTypeEnumeratedType;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bMarshalException;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bUnmarshalException;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCreateReportType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrReportRequestType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.TemperatureUnitType;
+import com.avob.openadr.model.oadr20b.oadr.OadrCreateReportType;
+import com.avob.openadr.model.oadr20b.oadr.OadrReportRequestType;
+import com.avob.openadr.model.oadr20b.oadr.TemperatureUnitType;
 import com.avob.openadr.model.oadr20b.siscale.SiScaleCodeType;
 
 public class Oadr20bCreateReportTest {

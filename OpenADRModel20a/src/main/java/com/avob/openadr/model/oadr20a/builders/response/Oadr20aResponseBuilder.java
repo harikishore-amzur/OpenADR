@@ -2,7 +2,7 @@ package com.avob.openadr.model.oadr20a.builders.response;
 
 import com.avob.openadr.model.oadr20a.Oadr20aFactory;
 import com.avob.openadr.model.oadr20a.ei.EiResponse;
-import com.avob.openadr.model.oadr20a.dev-members.evokesystems.OadrResponse;
+import com.avob.openadr.model.oadr20a.oadr.OadrResponse;
 
 public class Oadr20aResponseBuilder {
 

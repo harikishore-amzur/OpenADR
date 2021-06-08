@@ -3,7 +3,7 @@ package com.avob.openadr.model.oadr20b.builders.eipayload;
 import com.avob.openadr.model.oadr20b.Oadr20bFactory;
 import com.avob.openadr.model.oadr20b.avob.PayloadKeyTokenType;
 import com.avob.openadr.model.oadr20b.ei.IntervalType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrPayloadResourceStatusType;
+import com.avob.openadr.model.oadr20b.oadr.OadrPayloadResourceStatusType;
 
 public class Oadr20bReportIntervalTypeBuilder {
 

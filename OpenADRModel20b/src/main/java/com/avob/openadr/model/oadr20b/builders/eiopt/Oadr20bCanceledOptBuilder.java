@@ -1,7 +1,7 @@
 package com.avob.openadr.model.oadr20b.builders.eiopt;
 
 import com.avob.openadr.model.oadr20b.Oadr20bFactory;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCanceledOptType;
+import com.avob.openadr.model.oadr20b.oadr.OadrCanceledOptType;
 
 public class Oadr20bCanceledOptBuilder {
 

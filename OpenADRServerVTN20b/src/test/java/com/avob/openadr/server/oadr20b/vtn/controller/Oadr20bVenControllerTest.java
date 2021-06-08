@@ -21,12 +21,12 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCancelPartyRegistrationType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCancelReportType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCreateReportType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrRegisterReportType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrRequestReregistrationType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrResponseType;
+import com.avob.openadr.model.oadr20b.oadr.OadrCancelPartyRegistrationType;
+import com.avob.openadr.model.oadr20b.oadr.OadrCancelReportType;
+import com.avob.openadr.model.oadr20b.oadr.OadrCreateReportType;
+import com.avob.openadr.model.oadr20b.oadr.OadrRegisterReportType;
+import com.avob.openadr.model.oadr20b.oadr.OadrRequestReregistrationType;
+import com.avob.openadr.model.oadr20b.oadr.OadrResponseType;
 import com.avob.openadr.server.common.vtn.models.ven.VenDto;
 import com.avob.openadr.server.common.vtn.service.push.DemandResponseEventPublisher;
 import com.avob.openadr.server.oadr20b.vtn.VTN20bSecurityApplicationTest;

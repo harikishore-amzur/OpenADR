@@ -18,8 +18,8 @@ import com.avob.openadr.model.oadr20b.TestUtils;
 import com.avob.openadr.model.oadr20b.builders.Oadr20bEiRegisterPartyBuilders;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bMarshalException;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bUnmarshalException;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCreatePartyRegistrationType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrTransportType;
+import com.avob.openadr.model.oadr20b.oadr.OadrCreatePartyRegistrationType;
+import com.avob.openadr.model.oadr20b.oadr.OadrTransportType;
 
 public class Oadr20bCreatePartyRegistrationTest {
 

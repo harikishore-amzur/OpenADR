@@ -9,8 +9,8 @@ import com.avob.openadr.model.oadr20b.ei.EiEventBaselineType;
 import com.avob.openadr.model.oadr20b.ei.EiEventSignalType;
 import com.avob.openadr.model.oadr20b.ei.EiTargetType;
 import com.avob.openadr.model.oadr20b.ei.EventDescriptorType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrDistributeEventType.OadrEvent;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.ResponseRequiredType;
+import com.avob.openadr.model.oadr20b.oadr.OadrDistributeEventType.OadrEvent;
+import com.avob.openadr.model.oadr20b.oadr.ResponseRequiredType;
 
 public class Oadr20bDistributeEventOadrEventBuilder {
 

@@ -1,7 +1,7 @@
 package com.avob.openadr.model.oadr20b.builders.eiregisterparty;
 
 import com.avob.openadr.model.oadr20b.Oadr20bFactory;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrRequestReregistrationType;
+import com.avob.openadr.model.oadr20b.oadr.OadrRequestReregistrationType;
 
 public class Oadr20bRequestReregistrationBuilder {
 

@@ -1,7 +1,7 @@
 package com.avob.openadr.model.oadr20b.builders.eiopt;
 
 import com.avob.openadr.model.oadr20b.Oadr20bFactory;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCreatedOptType;
+import com.avob.openadr.model.oadr20b.oadr.OadrCreatedOptType;
 
 public class Oadr20bCreatedOptBuilder {
 

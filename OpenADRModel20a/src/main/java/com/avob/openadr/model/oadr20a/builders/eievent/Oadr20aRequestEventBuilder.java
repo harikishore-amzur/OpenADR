@@ -1,7 +1,7 @@
 package com.avob.openadr.model.oadr20a.builders.eievent;
 
 import com.avob.openadr.model.oadr20a.Oadr20aFactory;
-import com.avob.openadr.model.oadr20a.dev-members.evokesystems.OadrRequestEvent;
+import com.avob.openadr.model.oadr20a.oadr.OadrRequestEvent;
 
 public class Oadr20aRequestEventBuilder {
 

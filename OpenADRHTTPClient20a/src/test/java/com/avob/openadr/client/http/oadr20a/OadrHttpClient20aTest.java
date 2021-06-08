@@ -38,9 +38,9 @@ import com.avob.openadr.model.oadr20a.ei.SignalTypeEnumeratedType;
 import com.avob.openadr.model.oadr20a.exception.Oadr20aException;
 import com.avob.openadr.model.oadr20a.exception.Oadr20aHttpLayerException;
 import com.avob.openadr.model.oadr20a.exception.Oadr20aMarshalException;
-import com.avob.openadr.model.oadr20a.dev-members.evokesystems.OadrDistributeEvent;
-import com.avob.openadr.model.oadr20a.dev-members.evokesystems.OadrDistributeEvent.OadrEvent;
-import com.avob.openadr.model.oadr20a.dev-members.evokesystems.OadrResponse;
+import com.avob.openadr.model.oadr20a.oadr.OadrDistributeEvent;
+import com.avob.openadr.model.oadr20a.oadr.OadrDistributeEvent.OadrEvent;
+import com.avob.openadr.model.oadr20a.oadr.OadrResponse;
 
 public class OadrHttpClient20aTest {
 

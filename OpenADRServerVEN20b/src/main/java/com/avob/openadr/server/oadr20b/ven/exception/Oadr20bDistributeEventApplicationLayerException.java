@@ -1,7 +1,7 @@
 package com.avob.openadr.server.oadr20b.ven.exception;
 
 import com.avob.openadr.model.oadr20b.exception.Oadr20bApplicationLayerException;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrResponseType;
+import com.avob.openadr.model.oadr20b.oadr.OadrResponseType;
 
 public class Oadr20bDistributeEventApplicationLayerException extends Oadr20bApplicationLayerException {
 

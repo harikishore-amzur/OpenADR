@@ -17,7 +17,7 @@ import com.avob.openadr.model.oadr20b.TestUtils;
 import com.avob.openadr.model.oadr20b.builders.Oadr20bEiEventBuilders;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bMarshalException;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bUnmarshalException;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrRequestEventType;
+import com.avob.openadr.model.oadr20b.oadr.OadrRequestEventType;
 
 public class Oadr20bRequestEventTest {
 

@@ -7,8 +7,8 @@ import org.springframework.stereotype.Service;
 
 import com.avob.openadr.model.oadr20b.builders.Oadr20bEiRegisterPartyBuilders;
 import com.avob.openadr.model.oadr20b.ei.SchemaVersionEnumeratedType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrProfiles.OadrProfile;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrTransportType;
+import com.avob.openadr.model.oadr20b.oadr.OadrProfiles.OadrProfile;
+import com.avob.openadr.model.oadr20b.oadr.OadrTransportType;
 
 /**
  * Define VTN Supported VEN profiles

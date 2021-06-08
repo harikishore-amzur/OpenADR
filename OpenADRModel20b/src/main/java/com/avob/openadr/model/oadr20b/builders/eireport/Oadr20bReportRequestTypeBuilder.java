@@ -6,7 +6,7 @@ import com.avob.openadr.model.oadr20b.Oadr20bFactory;
 import com.avob.openadr.model.oadr20b.ei.ReadingTypeEnumeratedType;
 import com.avob.openadr.model.oadr20b.ei.SpecifierPayloadType;
 import com.avob.openadr.model.oadr20b.emix.ItemBaseType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrReportRequestType;
+import com.avob.openadr.model.oadr20b.oadr.OadrReportRequestType;
 import com.avob.openadr.model.oadr20b.xcal.WsCalendarIntervalType;
 
 public class Oadr20bReportRequestTypeBuilder {

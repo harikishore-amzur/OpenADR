@@ -18,8 +18,8 @@ import com.avob.openadr.model.oadr20b.TestUtils;
 import com.avob.openadr.model.oadr20b.builders.Oadr20bEiReportBuilders;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bMarshalException;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bUnmarshalException;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCancelReportType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrUpdatedReportType;
+import com.avob.openadr.model.oadr20b.oadr.OadrCancelReportType;
+import com.avob.openadr.model.oadr20b.oadr.OadrUpdatedReportType;
 
 public class Oadr20bUpdatedReportTest {
 	private Oadr20bJAXBContext jaxbContext;

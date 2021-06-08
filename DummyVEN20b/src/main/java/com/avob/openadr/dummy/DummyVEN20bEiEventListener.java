@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import com.avob.openadr.dummy.simulator.DummyVEN20bSimulator;
 import com.avob.openadr.model.oadr20b.ei.EiEventSignalType;
 import com.avob.openadr.model.oadr20b.ei.IntervalType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrDistributeEventType.OadrEvent;
+import com.avob.openadr.model.oadr20b.oadr.OadrDistributeEventType.OadrEvent;
 import com.avob.openadr.server.oadr20b.ven.VtnSessionConfiguration;
 import com.avob.openadr.server.oadr20b.ven.service.Oadr20bVENEiEventService;
 import com.avob.openadr.server.oadr20b.ven.timeline.Timeline.EventTimelineListener;

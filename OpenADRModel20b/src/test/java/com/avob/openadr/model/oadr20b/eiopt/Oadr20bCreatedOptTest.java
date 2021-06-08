@@ -17,7 +17,7 @@ import com.avob.openadr.model.oadr20b.TestUtils;
 import com.avob.openadr.model.oadr20b.builders.Oadr20bEiOptBuilders;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bMarshalException;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bUnmarshalException;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCreatedOptType;
+import com.avob.openadr.model.oadr20b.oadr.OadrCreatedOptType;
 
 public class Oadr20bCreatedOptTest {
 	private Oadr20bJAXBContext jaxbContext;

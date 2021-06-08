@@ -11,7 +11,7 @@ import org.springframework.security.test.web.servlet.request.SecurityMockMvcRequ
 import org.springframework.stereotype.Service;
 
 import com.avob.openadr.model.oadr20b.ei.SchemaVersionEnumeratedType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrTransportType;
+import com.avob.openadr.model.oadr20b.oadr.OadrTransportType;
 import com.avob.openadr.server.common.vtn.VtnConfig;
 import com.avob.openadr.server.common.vtn.models.user.OadrUser;
 import com.avob.openadr.server.common.vtn.models.ven.Ven;
@@ -192,7 +192,7 @@ public class OadrDataBaseSetup {
 		ven.setTransport(OadrTransportType.SIMPLE_HTTP.value());
 		ven.setXmlSignature(false);
 		ven.setHttpPullModel(false);
-		ven.setPushUrl("https://" + VEN_HTTP_PUSH + ".dev-members.evokesystems.com");
+		ven.setPushUrl("https://" + VEN_HTTP_PUSH + ".oadr.com");
 		venService.save(ven);
 
 		venResourceService.save(venResourceService.prepare(ven, new VenResourceDto(VEN_RESOURCE_1)));
@@ -207,7 +207,7 @@ public class OadrDataBaseSetup {
 		ven.setTransport(OadrTransportType.SIMPLE_HTTP.value());
 		ven.setXmlSignature(true);
 		ven.setHttpPullModel(false);
-		ven.setPushUrl("https://" + VEN_HTTP_PUSH_DSIG + ".dev-members.evokesystems.com");
+		ven.setPushUrl("https://" + VEN_HTTP_PUSH_DSIG + ".oadr.com");
 		venService.save(ven);
 
 		venResourceService.save(venResourceService.prepare(ven, new VenResourceDto(VEN_RESOURCE_1)));

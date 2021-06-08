@@ -1,8 +1,8 @@
 package com.avob.openadr.model.oadr20b.builders.eireport;
 
 import com.avob.openadr.model.oadr20b.Oadr20bFactory;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCancelReportType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrUpdatedReportType;
+import com.avob.openadr.model.oadr20b.oadr.OadrCancelReportType;
+import com.avob.openadr.model.oadr20b.oadr.OadrUpdatedReportType;
 
 public class Oadr20bUpdatedReportBuilder {
 

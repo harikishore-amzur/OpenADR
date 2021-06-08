@@ -2,7 +2,7 @@ package com.avob.openadr.model.oadr20b.builders.eiregisterparty;
 
 import com.avob.openadr.model.oadr20b.Oadr20bFactory;
 import com.avob.openadr.model.oadr20b.ei.EiResponseType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCanceledPartyRegistrationType;
+import com.avob.openadr.model.oadr20b.oadr.OadrCanceledPartyRegistrationType;
 
 public class Oadr20bCanceledPartyRegistrationBuilder {
 

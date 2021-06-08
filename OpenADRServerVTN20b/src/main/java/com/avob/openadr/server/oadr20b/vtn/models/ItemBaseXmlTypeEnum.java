@@ -1,14 +1,14 @@
 package com.avob.openadr.server.oadr20b.vtn.models;
 
 import com.avob.openadr.model.oadr20b.emix.ItemBaseType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.BaseUnitType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.CurrencyType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.CurrentType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.FrequencyType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrGBItemBase;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.PulseCountType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.TemperatureType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.ThermType;
+import com.avob.openadr.model.oadr20b.oadr.BaseUnitType;
+import com.avob.openadr.model.oadr20b.oadr.CurrencyType;
+import com.avob.openadr.model.oadr20b.oadr.CurrentType;
+import com.avob.openadr.model.oadr20b.oadr.FrequencyType;
+import com.avob.openadr.model.oadr20b.oadr.OadrGBItemBase;
+import com.avob.openadr.model.oadr20b.oadr.PulseCountType;
+import com.avob.openadr.model.oadr20b.oadr.TemperatureType;
+import com.avob.openadr.model.oadr20b.oadr.ThermType;
 import com.avob.openadr.model.oadr20b.power.EnergyApparentType;
 import com.avob.openadr.model.oadr20b.power.EnergyReactiveType;
 import com.avob.openadr.model.oadr20b.power.EnergyRealType;

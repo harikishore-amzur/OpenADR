@@ -28,9 +28,9 @@ import com.avob.openadr.model.oadr20b.ei.SignalTypeEnumeratedType;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bMarshalException;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bUnmarshalException;
 import com.avob.openadr.model.oadr20b.iso.ISO3AlphaCurrencyCodeContentType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.CurrencyItemDescriptionType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrDistributeEventType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrDistributeEventType.OadrEvent;
+import com.avob.openadr.model.oadr20b.oadr.CurrencyItemDescriptionType;
+import com.avob.openadr.model.oadr20b.oadr.OadrDistributeEventType;
+import com.avob.openadr.model.oadr20b.oadr.OadrDistributeEventType.OadrEvent;
 import com.avob.openadr.model.oadr20b.siscale.SiScaleCodeType;
 import com.avob.openadr.model.oadr20b.strm.Intervals;
 

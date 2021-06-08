@@ -16,10 +16,10 @@ public class RabbitmqHTTPAuthController {
 //	  {rabbit, [{auth_backends, [rabbit_auth_backend_http]}]},
 //	  {rabbitmq_auth_backend_http,
 //	   [{http_method,   post},
-//	    {user_path,     "https://vtn.dev-members.evokesystems.com:8181/testvtn/auth/user"},
-//	    {vhost_path,    "https://vtn.dev-members.evokesystems.com:8181/testvtn/auth/vhost"},
-//	    {resource_path, "https://vtn.dev-members.evokesystems.com:8181/testvtn/auth/resource"},
-//	    {topic_path,    "https://vtn.dev-members.evokesystems.com:8181/testvtn/auth/topic"}]}
+//	    {user_path,     "https://vtn.oadr.com:8181/testvtn/auth/user"},
+//	    {vhost_path,    "https://vtn.oadr.com:8181/testvtn/auth/vhost"},
+//	    {resource_path, "https://vtn.oadr.com:8181/testvtn/auth/resource"},
+//	    {topic_path,    "https://vtn.oadr.com:8181/testvtn/auth/topic"}]}
 //	].
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(RabbitmqHTTPAuthController.class);

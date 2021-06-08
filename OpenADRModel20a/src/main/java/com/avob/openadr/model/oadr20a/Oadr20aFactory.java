@@ -19,11 +19,11 @@ import com.avob.openadr.model.oadr20a.ei.IntervalType;
 import com.avob.openadr.model.oadr20a.ei.PayloadFloat;
 import com.avob.openadr.model.oadr20a.ei.QualifiedEventIDType;
 import com.avob.openadr.model.oadr20a.ei.SignalPayloadType;
-import com.avob.openadr.model.oadr20a.dev-members.evokesystems.OadrCreatedEvent;
-import com.avob.openadr.model.oadr20a.dev-members.evokesystems.OadrDistributeEvent;
-import com.avob.openadr.model.oadr20a.dev-members.evokesystems.OadrDistributeEvent.OadrEvent;
-import com.avob.openadr.model.oadr20a.dev-members.evokesystems.OadrRequestEvent;
-import com.avob.openadr.model.oadr20a.dev-members.evokesystems.OadrResponse;
+import com.avob.openadr.model.oadr20a.oadr.OadrCreatedEvent;
+import com.avob.openadr.model.oadr20a.oadr.OadrDistributeEvent;
+import com.avob.openadr.model.oadr20a.oadr.OadrDistributeEvent.OadrEvent;
+import com.avob.openadr.model.oadr20a.oadr.OadrRequestEvent;
+import com.avob.openadr.model.oadr20a.oadr.OadrResponse;
 import com.avob.openadr.model.oadr20a.pyld.EiCreatedEvent;
 import com.avob.openadr.model.oadr20a.pyld.EiRequestEvent;
 import com.avob.openadr.model.oadr20a.strm.Intervals;
@@ -41,7 +41,7 @@ import com.avob.openadr.model.oadr20a.xcal.Uid;
  */
 public class Oadr20aFactory {
 
-    private static final com.avob.openadr.model.oadr20a.dev-members.evokesystems.ObjectFactory factory = new com.avob.openadr.model.oadr20a.dev-members.evokesystems.ObjectFactory();
+    private static final com.avob.openadr.model.oadr20a.oadr.ObjectFactory factory = new com.avob.openadr.model.oadr20a.oadr.ObjectFactory();
     private static final com.avob.openadr.model.oadr20a.ei.ObjectFactory eiFactory = new com.avob.openadr.model.oadr20a.ei.ObjectFactory();
     private static final com.avob.openadr.model.oadr20a.strm.ObjectFactory strmFactory = new com.avob.openadr.model.oadr20a.strm.ObjectFactory();
     private static final com.avob.openadr.model.oadr20a.xcal.ObjectFactory xcalFactory = new com.avob.openadr.model.oadr20a.xcal.ObjectFactory();

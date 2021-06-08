@@ -5,7 +5,7 @@ import java.util.List;
 import com.avob.openadr.model.oadr20b.Oadr20bFactory;
 import com.avob.openadr.model.oadr20b.ei.EiResponseType;
 import com.avob.openadr.model.oadr20b.ei.EventResponses.EventResponse;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCreatedEventType;
+import com.avob.openadr.model.oadr20b.oadr.OadrCreatedEventType;
 
 public class Oadr20bCreatedEventBuilder {
 

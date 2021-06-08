@@ -1,6 +1,6 @@
 package com.avob.openadr.server.oadr20b.ven.exception;
 
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCanceledPartyRegistrationType;
+import com.avob.openadr.model.oadr20b.oadr.OadrCanceledPartyRegistrationType;
 
 public class Oadr20bCancelPartyRegistrationApplicationLayerException extends Exception {
 

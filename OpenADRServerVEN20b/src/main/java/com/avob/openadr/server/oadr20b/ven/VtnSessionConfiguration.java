@@ -7,8 +7,8 @@ import java.util.stream.Collectors;
 
 import javax.net.ssl.SSLContext;
 
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrReportDescriptionType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrReportType;
+import com.avob.openadr.model.oadr20b.oadr.OadrReportDescriptionType;
+import com.avob.openadr.model.oadr20b.oadr.OadrReportType;
 
 public class VtnSessionConfiguration {
 

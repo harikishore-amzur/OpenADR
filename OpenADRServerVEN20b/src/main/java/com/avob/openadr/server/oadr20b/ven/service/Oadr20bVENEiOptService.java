@@ -13,9 +13,9 @@ import com.avob.openadr.model.oadr20b.exception.Oadr20bHttpLayerException;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bMarshalException;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bXMLSignatureException;
 import com.avob.openadr.model.oadr20b.exception.Oadr20bXMLSignatureValidationException;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCanceledOptType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCreateOptType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrCreatedOptType;
+import com.avob.openadr.model.oadr20b.oadr.OadrCanceledOptType;
+import com.avob.openadr.model.oadr20b.oadr.OadrCreateOptType;
+import com.avob.openadr.model.oadr20b.oadr.OadrCreatedOptType;
 import com.avob.openadr.server.oadr20b.ven.MultiVtnConfig;
 import com.avob.openadr.server.oadr20b.ven.VtnSessionConfiguration;
 

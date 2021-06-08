@@ -4,8 +4,8 @@ import java.util.Arrays;
 import java.util.List;
 
 import com.avob.openadr.model.oadr20b.Oadr20bFactory;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrRegisterReportType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrReportType;
+import com.avob.openadr.model.oadr20b.oadr.OadrRegisterReportType;
+import com.avob.openadr.model.oadr20b.oadr.OadrReportType;
 
 public class Oadr20bRegisterReportBuilder {
 

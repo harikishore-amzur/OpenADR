@@ -273,7 +273,7 @@ public class OadrPKISecurityTest {
 		X509Certificate caCert = (X509Certificate) certificateFactory
 				.generateCertificate(new ByteArrayInputStream(holder.toASN1Structure().getEncoded()));
 
-		String commonName = "test.dev-members.evokesystems.com";
+		String commonName = "test.oadr.com";
 
 		// TEST RSA
 		OadrUserX509Credential generateCredentials = OadrPKISecurity.generateCredentials(ca, caCert, commonName,

@@ -1,9 +1,9 @@
 package com.avob.openadr.model.oadr20b.builders.eiregisterparty;
 
 import com.avob.openadr.model.oadr20b.Oadr20bFactory;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrProfiles.OadrProfile;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrTransportType;
-import com.avob.openadr.model.oadr20b.dev-members.evokesystems.OadrTransports.OadrTransport;
+import com.avob.openadr.model.oadr20b.oadr.OadrProfiles.OadrProfile;
+import com.avob.openadr.model.oadr20b.oadr.OadrTransportType;
+import com.avob.openadr.model.oadr20b.oadr.OadrTransports.OadrTransport;
 
 public class Oadr20bOadrProfileBuilder {
 
